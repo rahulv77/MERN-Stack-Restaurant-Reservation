@@ -1,0 +1,179 @@
+{
+    "data": [
+        {"ourQualities" : [
+            {
+                "id": 1,
+                "image": "./quality_food.svg",
+                "title": "QUALITY FOOD",
+                "description": "We aim to provide high quality food made by our highly experienced chefs with high quality ingredients."
+            },
+            {
+                "id": 2,
+                "image": "./super_taste.svg",
+                "title": "SUPER TASTE",
+                "description": "Dishes prepared by our chefs will definitely provide you the world class taste and quality."
+            },
+            {
+                "id": 3,
+                "image": "./fast_delivery.svg",
+                "title": "FAST DELIVERY",
+                "description": "Our delivery service team ensures quick delivery of food with high quality and hygiene for the customers."
+            }
+        ],
+        "dishes": [
+            {
+                "id": 1,
+                "image": "./dinner1.jpg",
+                "title": "ROASTED LAMB",
+                "category": "Dinner"
+            },
+            {
+                "id": 2,
+                "image": "./dinner2.jpg",
+                "title": "BUTTER CHICKEN NAAN",
+                "category": "Dinner"
+            },
+            {
+                "id": 3,
+                "image": "./lunch1.jpg",
+                "title": "PRAWN FRIED RICE",
+                "category": "Lunch"
+            },
+            {
+                "id": 4,
+                "image": "./dessert1.jpg",
+                "title": "STUFFED STRAWBERRY PIE",
+                "category": "Dessert"
+            },
+            {
+                "id": 5,
+                "image": "./lunch2.jpg",
+                "title": "PANEER BUTTER MASALA",
+                "category": "Lunch"
+            },
+            {
+                "id": 6,
+                "image": "./dinner3.jpg",
+                "title": "CHICKEN TANDOORI",
+                "category": "Dinner"
+            },
+            {
+                "id": 7,
+                "image": "./dinner4.jpg",
+                "title": "CHICKEN EGG NOODLES",
+                "category": "Dinner"
+            },
+            {
+                "id": 8,
+                "image": "./dessert2.jpg",
+                "title": "LEMON TART",
+                "category": "Dessert"
+            }
+        ],
+        "team": [
+            {
+                "id": 1,
+                "image": "./team_member_1.png",
+                "name": "JOHNATHAN TYLER",
+                "designation": "Founder & Head Chef"
+            },
+            {
+                "id": 2,
+                "image": "./team_member_2.png",
+                "name": "SAM SMITH",
+                "designation": "Senior Chef"
+            },
+            {
+                "id": 3,
+                "image": "./team_member_3.png",
+                "name": "WILLIAM BAKER",
+                "designation": "Fast Food Chef"
+            },
+            {
+                "id": 4,
+                "image": "./team_member_4.png",
+                "name": "ALEX JONES",
+                "designation": "Senior Chef"
+            }
+        ],
+        "testimonials": [
+            {
+                "id": 1,
+                "image": "./review1.png",
+                "description": "",
+                "rating": 4,
+                "userName": "Jane Cooper"
+            },
+            {
+                "id": 2,
+                "image": "./review2.png",
+                "description": "",
+                "rating": 4.5,
+                "userName": "Emily Howard"
+            },
+            {
+                "id": 3,
+                "image": "./review3.png",
+                "description": "",
+                "rating": 5,
+                "userName": "Ethan Hawkins"
+            }
+        ],
+        "who_we_are": [
+            {
+                "id": 1,
+                "number": "14",
+                "title": "Restaurants"
+            },
+            {
+                "id": 2,
+                "number": "20",
+                "title": "Chef In Kitchen"
+            },
+            {
+                "id": 3,
+                "number": "08",
+                "title": "Years Of Experience"
+            },
+            {
+                "id": 4,
+                "number": "200",
+                "title": "Food Dishes"
+            }
+        ],
+        "navbarLinks": [
+            {
+                "id": 1,
+                "title": "HOME",
+                "link": "heroSection"
+            },
+            {
+                "id": 2,
+                "title": "ABOUT US",
+                "link": "about"
+            },
+            {
+                "id": 3,
+                "title": "SERVICES",
+                "link": "qualities"
+            },
+            {
+                "id": 4,
+                "title": "TEAM",
+                "link": "team"
+            },
+            {
+                "id": 5,
+                "title": "MENU",
+                "link": "menu"
+            },
+            {
+                "id": 6,
+                "title": "RESERVATION",
+                "link": "reservation"
+            }
+        ]
+    
+    } 
+    ]
+}
