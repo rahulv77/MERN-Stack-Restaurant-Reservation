@@ -19,6 +19,11 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use('/api/v1/reservation', ReservationRoute)
 
+app.get("/", (req, res, next)=>{return res.status(200).json({
+    success: true,
+    message: "HELLO WORLD AGAIN"
+  })})
+
 dbConnection();
 
 app.use(errorMiddleware)
