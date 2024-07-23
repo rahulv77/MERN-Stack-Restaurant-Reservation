@@ -984,6 +984,18 @@ footer .container .banner .right {
   background: transparent;
   margin-top: 30px;
 }
+.reservation .container .banner .reservation_form_box form button:hover {
+  color: #fff;
+  background: linear-gradient(to right top, #070809, #2b2b2c, #4e4e4e, #737373, #9b9b9b);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.reservation .container .banner .reservation_form_box form button:active {
+  color: #fff;
+  background: linear-gradient(to right bottom, #070809, #2b2b2c, #4e4e4e, #737373, #9b9b9b);
+  transition: 0.3s;
+  cursor: pointer;
+}
 .reservation .container .banner .reservation_form_box form button span {
   margin-left: 1rem;
   padding: 3px;
