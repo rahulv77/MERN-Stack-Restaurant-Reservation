@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import { HiOutlineArrowDown } from "react-icons/hi";
 import { Link } from "react-scroll";
 import { HiOutlineArrowDown } from "react-icons/hi";
 
