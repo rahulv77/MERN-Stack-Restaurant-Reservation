@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { HiOutlineArrowDown } from "react-icons/hi";
+import { Link } from "react-scroll";
+import { HiOutlineArrowDown } from "react-icons/hi";
 
 const About = () => {
   return (
@@ -21,7 +23,7 @@ const About = () => {
               who walk through our doors. Come join us and experience the
               perfect blend of flavors and hospitality.
             </p>
-            <Link to={"/"}>
+            <Link to="menu" spy={true} smooth={true} duration={500}>
               Explore Our Menu Below{" "}
               <span>
                 <HiOutlineArrowDown />
